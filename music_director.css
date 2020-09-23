@@ -1,0 +1,75 @@
+*{
+  font-family: 'Bahnschrift';
+}
+body
+{
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100vh;
+	background:#white;
+	font-family:italic;
+
+}
+.music_director-form
+{
+	background:transparent;
+	color: white;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	width:300px;
+	padding:50px 40px;
+	
+box-shadow: 0 15px 20px rgba(0,0,0,.2);
+
+}
+.music_director-form h2
+{
+	colour:white;
+	margin:0 0 50px;
+	padding:0;
+	text-align:center;
+
+}
+.music_director-form .form-input
+{
+	colour:white;
+	background:transparent;
+	position:relative;
+	margin:20px 0;
+
+}
+.music_director-form .form-input input
+{
+	outline:white;
+	height:40px;
+	padding:0px;
+	width:100%;
+	border:1px  solid rgba(0,0,.5);
+	background: transparent;
+	font-size:18px;
+}
+.music_director-form .form-input input[type="submit"]
+{
+	background: #black;
+	color: white;
+	border:none;
+	cursor: pointer;
+	text-transform: uppercase;
+	box-shadow: 0 15px 20px rgba(0,0,0,.2);
+
+}
+.music_director-form .form-input input[type="submit"]:hover
+{
+	colour: white;
+	background:#black;
+}
+.music_director-form .Forget
+{
+	display:#black;
+	margin-top:50px;
+	color:white;
+	font-weight:bold;
+}
